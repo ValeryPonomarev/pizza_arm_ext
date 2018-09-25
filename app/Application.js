@@ -20,7 +20,21 @@ Ext.define('App.Application', {
     ],
 
     launch: function () {
-        // TODO - Launch the application
+        
+        Ext.create('App.view.mainView.MainView', {
+            renderTo: Ext.getBody()
+        });
+
+        // Ext.create('App.view.mainView.MainView', {
+        //     renderTo: Ext.getBody()
+        // });
+
+        // Ext.create('Ext.panel.Panel', {
+        //     title: 'Hello',
+        //     width: 200,
+        //     html: '<p>World!</p>',
+        //     renderTo: Ext.getBody()
+        // });
     },
 
     onAppUpdate: function () {
