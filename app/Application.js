@@ -20,14 +20,19 @@ Ext.define('App.Application', {
     ],
 
     launch: function () {
-        
+
         Ext.create('App.view.mainView.MainView', {
             renderTo: Ext.getBody()
         });
-
-        // Ext.create('App.view.mainView.MainView', {
+        //
+        // Ext.create('App.view.main.Main', {
         //     renderTo: Ext.getBody()
         // });
+        //
+        // Ext.create('App.view.order.OrderList', {
+        //     renderTo: Ext.getBody()
+        // });
+        //
 
         // Ext.create('Ext.panel.Panel', {
         //     title: 'Hello',
